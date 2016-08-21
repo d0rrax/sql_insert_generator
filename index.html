@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Inserts-Generator</title>
+    
+    <!-- Scripts -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="functions.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="jumbotron" style="overflow: auto">
+        <div class="page-header">
+          <h1>SQL Inserts-Generator<br />
+              <small>Generate simple & fast SQL Insert Statements for your Database</small>
+          </h1>
+        </div>
+        <div class="input-group col-lg-3">
+            <span class="input-group-addon" style="width: 150px">
+                Table Name
+            </span>
+            <input type="text" class="form-control" id="tableName">
+        </div>
+        <br />
+        <div class="input-group col-lg-3">
+            <span class="input-group-addon" style="width: 150px">
+                Column Count
+            </span>
+            <input type="text" class="form-control" id="valueColumnCount">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button" id="submitColumnCount">
+                    Apply <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
+                </button>
+            </span>
+        </div>
+        <br />
+        <div class="input-group col-lg-3">
+            <span class="input-group-addon" style="width: 150px">
+                Line Count
+            </span>
+            <input type="text" class="form-control" id="valueLineCount">
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button" id="submitLineCount">
+                    Apply <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
+                </button>
+            </span>
+        </div>
+        <br />
+        <br />
+        <br />
+        <table class="table table-bordered" id="table">
+        </table>
+        
+        <br />
+        <br />
+        <br />
+        <table id="resultTable" class="table">
+            <tr>
+                <th>
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary form-control" type="button" id="generateButton">
+                            Generate <span class="glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                        </button>
+                    </span>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <strong>
+                                Result
+                            </strong>
+                        </span>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="well" id="result">
+            
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+  </body>
+</html>
