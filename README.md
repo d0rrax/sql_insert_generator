@@ -31,11 +31,11 @@ It is possible to generate random data or specify own input.
 
 ![line count](resources/line_count.png "line count")
 
-4. Now youcan type in the column names, choose the type and if the value should be surrounded with quotes
+4. Now you can type in the column names, choose the type and if the value should be surrounded with quotes
 
 ![values](resources/values.png "values")
 
-5. There are currently 4 options to select. Null is the default selection.
+5. There are currently 5 options to select. Null is the default selection.
 
 ![input options](resources/input_options.png "input options")
 
