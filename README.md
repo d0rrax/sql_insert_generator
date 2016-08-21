@@ -15,6 +15,7 @@ It is possible to generate random data or specify own input.
   * Support update statements
   * Determine the column names from csv-input or create statement
   * Option to choose between single and multiple insert statements
+  * Checkbox for uinique values
 
 ## Usage
 
