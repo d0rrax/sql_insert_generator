@@ -1,6 +1,6 @@
 # SQL Insert Generator
-This is a small tool to generate simple &amp; fast sql insert statements for your database
-It is useful for testing. It is possible to generate random data or specify own input.
+This is a small tool to generate simple &amp; fast sql insert statements for your database for testing purposes.
+It is possible to generate random data or specify own input.
 
 * It's optimized for MySQL-Syntax. Maybe there will be support for more dbms in the future
 * the implementation is quick and dirty. Maybe it will be tidied up in the future
